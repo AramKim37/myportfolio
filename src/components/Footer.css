@@ -1,0 +1,10 @@
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-info {
+  color: rgb(177, 170, 176);
+  font-family: "Roboto Mono", monospace;
+}

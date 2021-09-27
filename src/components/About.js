@@ -12,21 +12,15 @@ function About() {
           <h2 className="about-subheading">Software Engineer</h2>
           <div className="about-info">
             <p>
-              I am from chittagong, Bangladesh. A place of beauty and nature.
-              Since my childhood, i love art and design. I always try to design
-              stuff with my unique point of view. I also love to create things
-              that can be usefull to others.
-              <br /> <br />
-              I started coding since I was in high school. Coding is also an art
-              for me. I love it and now I have the opportunity to design along
-              with the coding. I find it really interesting and I enjoyed the
-              process a lot.
-              <br />
-              <br />
-              My vision is to make the world a better place. Now almost
-              everything is becoming better than ever. It is time for us to
-              create more good stuff that helps the world to become a better
-              place.
+              <br></br>I am a software developer who always tries to be the best
+              over the best. <br></br>No matter what field I work in, <br></br>
+              if I do my best, one day I will become the best.<br></br>
+              <br></br>I dream that the program I made will be useful to
+              everyone.
+              <br></br>I am taking it one step at a time for that dream
+              <br></br>
+              <br></br>
+              <span className="steve">"Stay Hungry,&nbsp; Stay foolish"</span>
             </p>
           </div>
         </div>

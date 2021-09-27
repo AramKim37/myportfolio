@@ -32,7 +32,7 @@
 
 .com1 {
   position: relative;
-  margin-left: -2rem;
+  margin-left: -5rem;
   margin-bottom: -2rem;
 }
 
@@ -43,17 +43,26 @@
 }
 
 .about-heading {
-  color: white;
+  color: rgb(177, 170, 176);
   font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
 }
 
 .about-subheading {
-  color: white;
+  color: rgb(177, 170, 176);
   font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
 }
 
 .about-info p {
-  color: white;
+  color: rgb(156, 148, 155);
+  font-family: "Roboto Mono", monospace;
+}
+
+.steve {
+  color: rgb(177, 170, 176);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -83,11 +92,15 @@
   .about-container {
     display: flex;
     text-align: center;
-    height: 80vh;
+    height: 90vh;
   }
   .top-text {
     width: 100%;
     flex-direction: column;
+  }
+
+  .left {
+    margin-bottom: -15rem;
   }
   .right {
     display: flex;

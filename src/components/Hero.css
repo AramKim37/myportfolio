@@ -26,7 +26,8 @@
 
 .hero-name {
   font-size: 4rem;
-  color: rgb(150, 185, 201);
+  /* color: rgb(150, 185, 201); */
+  color: rgb(177, 170, 176);
   text-transform: uppercase;
   font-family: "Lobster", cursive;
 }
