@@ -10,6 +10,13 @@
   flex-wrap: wrap;
 }
 
+.allItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .projects-heading {
   margin: 0;
   text-transform: uppercase;
@@ -42,12 +49,6 @@
   padding-bottom: 2rem;
 }
 
-.allItems {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 .info-container {
   display: flex;
   justify-content: center;
@@ -69,4 +70,31 @@
 .project-desc {
   color: rgb(156, 148, 155);
   font-family: "Roboto Mono", monospace;
+}
+
+.btn-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-detail {
+  background-color: rgb(30, 27, 27);
+  color: rgb(177, 170, 176);
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .projects-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects-heading {
+    padding-bottom: 10rem;
+  }
 }

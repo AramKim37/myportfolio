@@ -50,6 +50,9 @@ function Projects() {
             ))}
           </div>
         </form>
+        <div className="btn-detail">
+          <button className="projects-detail">More</button>
+        </div>
       </div>
     </div>
   );

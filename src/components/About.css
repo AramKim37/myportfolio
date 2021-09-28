@@ -65,21 +65,20 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .top-text {
     width: 100%;
-
     flex-direction: column;
   }
   .right img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
 
   .right {
     display: flex;
     justify-content: center;
-    padding: 20px 0 20px 50px;
+    padding: 20px 0 20px -10;
   }
 
   .com2 {
@@ -87,7 +86,7 @@
     margin-left: 1rem;
   }
 }
-
+/* 
 @media screen and (max-width: 1141px) {
   .about-container {
     display: flex;
@@ -105,6 +104,6 @@
   .right {
     display: flex;
     justify-content: center;
-    padding: 20px 0 20px 50px;
+    padding: 100px 0 20px 50px;
   }
-}
+} */
