@@ -42,7 +42,7 @@
 }
 
 .projects-info {
-  margin-top: 2rem;
+  margin-top: 0.1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,11 +54,15 @@
   border: 2px solid darkgray;
 }
 
+.heading-container {
+  text-align: center;
+  padding-top: 7rem;
+}
 .projects-heading {
   text-align: center;
   font-size: 4rem;
-  margin-bottom: 2rem;
-  padding-top: 5rem;
+  margin-bottom: 0;
+  padding-top: 1rem;
   text-transform: uppercase;
   color: rgb(177, 170, 176);
   font-weight: bold;

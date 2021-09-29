@@ -17,8 +17,7 @@
 .projects-heading {
   text-transform: uppercase;
   color: rgb(177, 170, 176);
-  margin-bottom: 10rem;
-  padding: 0;
+  margin-bottom: 2rem;
 }
 
 .projects-searchBar {
@@ -43,7 +42,7 @@
   border: 3px solid darkgray;
   border-radius: 5%;
   width: 100%;
-  height: 400px;
+  height: 300px;
   overflow: hidden;
   display: inline-block;
 }
@@ -73,13 +72,14 @@
 .project-desc {
   color: rgb(156, 148, 155);
   font-family: "Roboto Mono", monospace;
+  font-size: 0.9rem;
 }
 
 .projects-detail {
   background-color: rgb(30, 27, 27);
   color: rgb(177, 170, 176);
   border: none;
-  width: 100px;
+  width: 100%;
   height: 50px;
   border-radius: 10%;
   text-transform: uppercase;

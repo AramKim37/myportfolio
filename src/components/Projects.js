@@ -41,7 +41,7 @@ function Projects({ slides }) {
               />
               {index === current && (
                 <>
-                  <div>
+                  <div className="heading-container">
                     <div className="projects-heading">projects</div>
                   </div>
 

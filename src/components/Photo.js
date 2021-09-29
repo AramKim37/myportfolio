@@ -27,7 +27,7 @@ function Photo() {
     <div id="photo" className="projects-container">
       <h1 className="projects-heading">Photography</h1>
       <div className="projects-searchBar">
-        <form>
+        <form className="input">
           <input
             type="text"
             value={searchText}
