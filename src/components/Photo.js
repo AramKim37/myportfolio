@@ -29,6 +29,7 @@ function Photo() {
       <div className="projects-searchBar">
         <form className="input">
           <input
+            className="photo-input"
             type="text"
             value={searchText}
             onChange={handleChange}
