@@ -14,7 +14,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 15rem;
+  gap: 10rem;
   padding-bottom: 5rem;
   background-color: rgb(30, 27, 27);
   border-radius: 20px;
@@ -74,6 +74,7 @@ textarea {
   outline: none;
   background-color: darkgray;
   color: aliceblue;
+  border-radius: 20px;
 }
 
 .sendbtn {
@@ -96,4 +97,38 @@ textarea {
 }
 button:hover {
   color: aliceblue;
+}
+
+@media screen and (max-width: 1068px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input100 {
+    width: 90%;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1.5rem;
+    min-height: 200px;
+  }
+
+  .contactme {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact-form {
+    font-size: 1rem;
+  }
+
+  .form-container {
+    gap: 1rem;
+  }
+
+  .sendbtn {
+    font-size: 0.8rem;
+  }
 }
