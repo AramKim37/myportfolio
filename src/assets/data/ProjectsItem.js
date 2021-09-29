@@ -2,7 +2,7 @@ import Binoo from "../images/binoo.png";
 import HomePage from "../images/homepage.png";
 import Todo from "../images/todo.png";
 
-const projectsItem = [
+const ProjectsItem = [
   {
     id: "1",
     name: "Capstone Project",
@@ -25,4 +25,4 @@ const projectsItem = [
   },
 ];
 
-export default projectsItem;
+export default ProjectsItem;

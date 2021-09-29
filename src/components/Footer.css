@@ -8,3 +8,8 @@
   color: rgb(177, 170, 176);
   font-family: "Roboto Mono", monospace;
 }
+@media screen and (max-width: 768px) {
+  .footer-info {
+    font-size: 15px;
+  }
+}
