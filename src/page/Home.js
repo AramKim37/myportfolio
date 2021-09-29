@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import ProjectsItem from "../assets/data/ProjectsItem";
 import Photo from "../components/Photo";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <About />
       <Projects slides={ProjectsItem} />
       <Photo />
+      <Contact />
     </div>
   );
 }

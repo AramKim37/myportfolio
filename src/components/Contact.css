@@ -1,0 +1,99 @@
+.email-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.email-form {
+  width: 80%;
+  border: 3px solid darkgray;
+  border-radius: 20px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  padding-bottom: 5rem;
+  background-color: rgb(30, 27, 27);
+  border-radius: 20px;
+  padding-top: 3rem;
+}
+
+.input100 {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: darkgray;
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+}
+
+.input100:focus {
+  outline: none;
+}
+
+.contactme {
+  font-size: 3rem;
+  color: rgb(177, 170, 176);
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+}
+.email-name {
+  padding-bottom: 1rem;
+}
+.email-email {
+  padding-bottom: 1rem;
+}
+.email-number {
+  padding-bottom: 1rem;
+}
+
+.email-message {
+  font-size: 1.2rem;
+  color: rgb(177, 170, 176);
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 5rem;
+}
+
+.contact-form {
+  font-size: 1.2rem;
+  color: rgb(177, 170, 176);
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 5rem;
+}
+
+textarea {
+  width: 100%;
+  font-size: 2rem;
+  min-height: 250px;
+  resize: vertical;
+  border: none;
+  outline: none;
+  background-color: darkgray;
+  color: aliceblue;
+}
+
+.sendbtn {
+  background-color: darkgray;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 0.5rem 3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.sent-message {
+  color: aliceblue;
+  font-family: "Roboto Mono", monospace;
+}
+button:hover {
+  color: aliceblue;
+}
