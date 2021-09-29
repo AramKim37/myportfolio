@@ -75,11 +75,6 @@
   font-family: "Roboto Mono", monospace;
 }
 
-.btn-detail {
-  display: flex;
-  justify-content: center;
-}
-
 .projects-detail {
   background-color: rgb(30, 27, 27);
   color: rgb(177, 170, 176);
@@ -98,6 +93,6 @@
   }
 
   .projects-heading {
-    padding-bottom: 10rem;
+    font-size: 2.5rem;
   }
 }
