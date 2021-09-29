@@ -3,6 +3,7 @@ import About from "../components/About";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import ProjectsItem from "../assets/data/ProjectsItem";
+import Photo from "../components/Photo";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <About />
       <Projects slides={ProjectsItem} />
+      <Photo />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ProjectsItem from "../assets/data/ProjectsItem";
 import "./Projects.css";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
@@ -41,8 +41,8 @@ function Projects({ slides }) {
   return (
     <div id="projects" className="container-projects">
       <section className="slider">
-        <FaArrowAltCircleLeft className="project-left" onClick={prevSlide} />
-        <FaArrowAltCircleRight className="project-right" onClick={nextSlide} />
+        {/* <FaArrowAltCircleLeft className="project-left" onClick={prevSlide} />
+        <FaArrowAltCircleRight className="project-right" onClick={nextSlide} /> */}
 
         {ProjectsItem.map((slide, index) => {
           return (
@@ -50,6 +50,14 @@ function Projects({ slides }) {
               className={index === current ? "slide active" : "slide"}
               key={index}
             >
+              <FaArrowAltCircleLeft
+                className="project-left"
+                onClick={prevSlide}
+              />
+              <FaArrowAltCircleRight
+                className="project-right"
+                onClick={nextSlide}
+              />
               {index === current && (
                 <>
                   <div>
@@ -63,6 +71,9 @@ function Projects({ slides }) {
                   <div className="projects-info">
                     <div className="projects-name">{slide.name}</div>
                     <div className="projects-desc">{slide.desc}</div>
+                    <a href={slide.homepage}>
+                      <button className="btn-projects">Explore</button>
+                    </a>
                   </div>
                 </>
               )}

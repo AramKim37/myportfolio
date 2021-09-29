@@ -122,7 +122,7 @@
   right: 100px;
 
   font-size: 3rem;
-  color: white;
+  color: darkgray;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -133,7 +133,7 @@
   top: 50%;
   left: 100px;
   font-size: 3rem;
-  color: white;
+  color: darkgray;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -147,7 +147,7 @@
   background-color: rgb(30, 27, 27);
   border-radius: 3%;
   width: 100%;
-  height: 100px;
+  height: 120px;
   font-family: "Roboto Mono", monospace;
   border: 2px solid darkgray;
 }
@@ -174,11 +174,27 @@
 .projects-desc {
   color: rgb(156, 148, 155);
   font-family: "Roboto Mono", monospace;
+  margin-bottom: 1rem;
+}
+
+.btn-projects {
+  border: none;
+  border-radius: 5%;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(177, 170, 176);
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn-projects:hover {
+  cursor: pointer;
+  color: aliceblue;
 }
 
 @media screen and (max-width: 768px) {
   .image {
-    width: 200px;
+    width: 250px;
     height: 200px;
     border-radius: 10px;
   }
@@ -186,5 +202,13 @@
   .image-container {
     display: flex;
     justify-content: center;
+  }
+
+  .project-left {
+    font-size: 2.5rem;
+  }
+
+  .project-right {
+    font-size: 2.5rem;
   }
 }
