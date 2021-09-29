@@ -22,13 +22,13 @@ export const PhotoData = [
   },
   {
     image: img4,
-    title: "Two Jack Lake",
-    desc: "Nikon D800 iso 3200",
+    title: "Star",
+    desc: "Nikon D800 iso 3200,  two jack lake",
   },
 
   {
     image: img5,
-    title: "Two Jack Lake",
-    desc: "Nikon D800 iso 3200, Milkyway",
+    title: "Milkyway",
+    desc: "Nikon D800 iso 3200, two jack lake",
   },
 ];
