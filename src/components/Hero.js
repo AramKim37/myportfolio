@@ -33,6 +33,8 @@ function Hero() {
                 2000,
                 "MongoDB",
                 2000,
+                "SQL",
+                2000,
                 "JavaScript",
                 2000,
                 "Python",
