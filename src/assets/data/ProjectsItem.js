@@ -15,7 +15,7 @@ const ProjectsItem = [
     id: "2",
     name: "Home Page",
     desc: "My personal website",
-    homepage: "http://binooandbuffalo.herokuapp.com/",
+    homepage: "https://aramkim37.netlify.app/",
     img: HomePage,
   },
 
