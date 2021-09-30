@@ -11,8 +11,6 @@ export default function Map() {
           <a
             className="map-link"
             href="https://www.google.ca/maps/@50.8951618,-114.081946,13.63z"
-            target="_blank"
-            rel="noreferrer"
           >
             Open
           </a>

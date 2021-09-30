@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
 import AboutImg from "../assets/images/hero2.jpg";
 import AboutImg1 from "../assets/images/hero3.jpg";
@@ -26,13 +25,13 @@ function About() {
             </p>
             <div className="icons">
               <div className="gitIcon">
-                <a target="_blank" href="https://github.com/AramKim37">
+                <a href="https://github.com/AramKim37">
                   <FaGithubSquare color="rgb(177, 170, 176)" size="40px" />
                 </a>
               </div>
 
               <div className="linkedIcon">
-                <a target="_blank" href="https://www.linkedin.com/in/aram-kim/">
+                <a href="https://www.linkedin.com/in/aram-kim/">
                   <FaLinkedin color="rgb(177, 170, 176)" size="40px" />
                 </a>
               </div>
