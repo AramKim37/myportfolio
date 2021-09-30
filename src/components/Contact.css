@@ -5,7 +5,7 @@
 }
 
 .email-form {
-  width: 80%;
+  width: 70%;
   border: 2px solid darkgray;
   border-radius: 20px;
 }
@@ -14,7 +14,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 15rem;
+  gap: 10rem;
   padding-bottom: 5rem;
   background-color: rgb(30, 27, 27);
   border-radius: 20px;
@@ -36,7 +36,7 @@
 }
 
 .contactme {
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgb(177, 170, 176);
   text-transform: uppercase;
   font-family: "Roboto Mono", monospace;
@@ -49,6 +49,10 @@
 }
 .email-number {
   padding-bottom: 1rem;
+}
+
+.formWordRight {
+  padding-top: 3rem;
 }
 
 .email-message {
@@ -66,7 +70,7 @@
 }
 
 textarea {
-  width: 100%;
+  width: 90%;
   font-size: 2rem;
   min-height: 250px;
   resize: vertical;
@@ -99,18 +103,18 @@ button:hover {
   color: aliceblue;
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 768px) {
   .form-container {
     display: flex;
     flex-direction: column;
   }
 
   .input100 {
-    width: 90%;
+    width: 85%;
   }
 
   textarea {
-    width: 100%;
+    width: 95%;
     font-size: 1.5rem;
     min-height: 200px;
   }
@@ -130,5 +134,12 @@ button:hover {
 
   .sendbtn {
     font-size: 0.8rem;
+  }
+
+  .formWordLeft {
+    padding-left: 1rem;
+  }
+  .formWordRight {
+    padding-left: 1rem;
   }
 }

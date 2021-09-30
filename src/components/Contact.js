@@ -38,7 +38,7 @@ export default function Contact() {
     <form className="email-container" action="" onSubmit={sendEmail}>
       <div className="email-form">
         <div className="form-container">
-          <div className="formWord">
+          <div className="formWordLeft">
             <h2 className="contactme">Contact me</h2>
             <div className="email-name">
               <span className="contact-form">Full Name</span>
@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
             <br />
           </div>
-          <div className="formWord">
+          <div className="formWordRight">
             <span className="email-message">Message</span>
             <br />
             <textarea name="message" required></textarea>
